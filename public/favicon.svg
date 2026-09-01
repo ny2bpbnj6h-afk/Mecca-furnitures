@@ -1,9 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" fill="#171615" rx="4"/>
-  <path d="M10 10 C10 5, 22 5, 22 10" fill="none" stroke="#C5A55A" stroke-width="1.5"/>
-  <polygon points="7,18 7,9 11,6 11,18" fill="#C5A55A"/>
-  <polygon points="25,18 25,9 21,6 21,18" fill="#C5A55A"/>
-  <rect x="11" y="10" width="10" height="8" fill="#C5A55A"/>
-  <polygon points="11,10 16,6.5 21,10" fill="#C5A55A"/>
-  <circle cx="16" cy="14" r="1.5" fill="#171615"/>
+  <!-- Light cream background matching the logo -->
+  <rect width="32" height="32" fill="#f5f0e8" rx="4"/>
+  <!-- Dark house pillars -->
+  <rect x="8" y="12" width="3.5" height="12" fill="#1a1714"/>
+  <rect x="20.5" y="12" width="3.5" height="12" fill="#1a1714"/>
+  <!-- Dark roof/body -->
+  <polygon points="8,12 16,5 24,12" fill="#1a1714"/>
+  <rect x="8" y="12" width="16" height="6" fill="#1a1714"/>
+  <!-- Gold arch on top -->
+  <path d="M10 12 C10 6, 22 6, 22 12" fill="none" stroke="#C5A55A" stroke-width="1.2"/>
+  <!-- Gold circle window -->
+  <circle cx="16" cy="15" r="2" fill="#C5A55A"/>
+  <!-- Gold base line -->
+  <line x1="6" y1="24" x2="26" y2="24" stroke="#C5A55A" stroke-width="1"/>
 </svg>
